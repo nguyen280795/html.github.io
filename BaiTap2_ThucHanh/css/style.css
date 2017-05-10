@@ -1,0 +1,395 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+    color:#555;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+:focus {
+    outline: 0;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+     text-decoration:  none;
+}
+	
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    clear: both;
+    display: block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*Add your css into here*/
+.fl_left{ float: left;}
+.fl_right{ float: right;}
+
+.container{
+    max-width: 985px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    background: #292727;
+    padding-top: 22px;
+    color: black;
+}
+.container-body{
+    display: flex;
+}
+.container-left{
+    margin-left: 3px;
+    display: table;
+}
+.top-cont-left{
+    background: white;
+}
+.title-1{
+    width: 329px;
+    border-right: 1px dotted black;
+    display: table-cell;
+    position: relative;
+}
+.title-1:nth-child(2){
+    border: none
+}
+.title-1 h1{
+    background: url("../img/h2-confidential-heading-bg.gif");
+    color: white;
+    padding: 6.5px 0 6.5px 11px;
+    margin-top: 1px;
+    font-size: 13px;
+}
+.title-1 img{
+    width: 329px;
+    padding: 7px 10px;
+    
+}
+.confi-logo{
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.title-1-1{
+    }
+img.img-title{
+    margin: -13px 0;
+    position: relative;
+}
+.more{
+    position: absolute;
+    top: 191px;
+    left: 265px;
+    font-weight: bold;
+}
+.more a{
+    color: black;
+}
+.text {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.text p {
+    padding-top: 5px;
+    line-height: 1.2;
+}
+.bot-cont-left{
+    width: 322px;
+    display: flex;
+}
+.left-bot{
+    margin: 11px 0 0 5px;
+    width: 316px;
+}
+.list-news h1{
+    background: url('../img/h2-top-movie-trailers-bg.gif');
+    color: white;
+    padding: 7px 0 7px 11px;
+    font-size: 13px;
+}
+.list-news{
+    border-bottom: 1px dotted #A5A4A9;
+    background: white;
+}
+.news{
+    background: url('../img/h3-movie-trailers-bg.gif');
+    padding: 1px 0 1px 2px;
+    border-bottom: 1px solid #A5A4A9;
+    color: #1482BD;
+    font-size: 12px;
+}
+.dropdown:nth-child(4){
+    border: none;
+}
+.dropbtn-down {
+    padding: 1px 0 1px 2px;
+    border: none;
+    font-weight: bold;
+    color: #1482BD;
+    font-size: 12px;
+    cursor: pointer;
+    background: url('../img/top-movie-trailers-arrows.gif');
+    background-repeat: no-repeat;
+    background-position: 291px 7px;
+    width: 308px;
+    text-align: left;
+}
+.dropbtn-right {
+    padding: 1px 0 1px 2px;
+    border: none;
+    font-weight: bold;
+    color: #1482BD;
+    font-size: 12px;
+    cursor: pointer;
+    background: url('../img/top-movie-trailers-arrows.gif');
+    background-repeat: no-repeat;
+    background-position: 291px -18px;
+    width: 308px;
+    text-align: left;
+}
+.dropdown {
+    border-bottom: 1px solid #C5C5C5;
+    background: url('../img/h3-movie-trailers-bg.gif');
+    padding: 0px 0px 2px 8px;
+}
+.dropdown-content {
+    display: none;
+    background-color: white;
+    margin: 2px 0 -2px -8px;
+}
+.dropdown-content img{
+    margin: 7px 0 0 7px;
+    width: 100px;
+    height: 75px;
+}
+.show {
+    display:flex;
+}
+.info {
+    margin: 6px 0 5px 7px;
+    width: 203px;
+    font-size: 12px;
+}
+.info p{
+    width: 189px;
+    margin-bottom: 6px;
+    line-height: 1.3;
+}
+.info a{
+    background: url('../img/entertainment-icons.gif');
+    background-repeat: no-repeat;
+    background-position: 0px -78px;
+    padding: 15px 0 0 20px;
+    font-weight: bold;
+    color: #1482BD;
+}
+.nav-1{
+    padding: 3px 0 3px 6px;
+    display: flex;
+    background: white;
+}
+.nav-1 p{
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    margin: 5px 0 0 5px;
+}
+.nav-1 select{
+    width: 64%;
+    height: 18px;
+    margin-left: 7px;
+}
+.nav-1 img {
+    width: 17px;
+    height: 21px;
+}
+.right-bot{
+    margin: 11px 0 0 18px;
+    background: white;
+    float: right;
+}
+.right-bot h1{
+    background: url('../img/h2-top-movie-review-bg.gif');
+    color: white;
+    padding: 7px 0 7px 11px;
+    font-size: 13px;
+    width: 323px;
+}
+.title-film{
+    border-bottom: 1px dotted #A4A4A4;
+    padding-bottom: 9px;
+}
+.title-film h2{
+    padding: 9px 0 6px 9px;
+    font-size: 15px;
+    color: #1482BD;
+}
+a#icon_below_right_1{
+    background: url('../img/topic-star-ratings.gif') no-repeat;
+    width: 60px;
+    height: 16px;
+    float: right;
+    margin-right: 10px;
+    background-position: 0 -67px;
+}
+a#icon_below_right_2{
+    background: url('../img/topic-star-ratings.gif') no-repeat;
+    width: 60px;
+    height: 16px;
+    float: right;
+    margin-right: 10px;
+    background-position: 0 -52px;
+}
+.intro-1{
+    margin-left: 8px;
+    display: flex;
+    margin-bottom: 11px;
+}
+.intro-1 img{
+    width: 99px;
+    height: 66px;
+}
+.intro-1 p{
+    margin-left: 9px;
+    margin-right: 11px;
+    font-size: 12px;
+    line-height: 1.3;
+}
+.title-film a{
+    background: url('../img/entertainment-icons.gif');
+    background-repeat: no-repeat;
+    background-position: 0px -79px;
+    padding: 15px 0 0 20px;
+    font-weight: bold;
+    color: #1482BD;
+    font-size: 12px;
+    margin-left: 8px;
+}
+.title-film:nth-child(3){
+    border: none;
+}
+.local-cinema-listings{
+    display: flex;
+    margin: auto;
+    border-top: 1px dotted #A8A8A8;
+    width: 307px;
+    padding-bottom: 7px;
+    padding-top: 6px;
+}
+.local-cinema-listings a{
+    font-weight: bold;
+    font-size: 12px;
+    color: #1482BD;
+}
+.local-cinema-listings img{
+    margin: 0 5px -2px 1px;
+}
+.local-cinema-listings p{
+    padding-left: 72px;
+    font-size: 12px;
+}
+.container-right{
+    margin-top: 11px;
+    margin-left: 20px;
+}
+.search {
+    margin-top: 10px;
+}
+.search input {
+    height: 20px;
+    width: 146px;
+    margin-left: 15px;
+}
+.search button {
+    width: 63px;
+    height: 16px;
+    background-color: #8B1C62;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.service-container{
+    margin-top: 28px;
+    border-top: 1px dotted white;
+    padding-top: 9px;
+    padding-bottom: 11px;
+    text-align: center;
+}
+.service-container ul li{
+    display: inline-block;
+    text-align: center;
+    width: 117px;
+    height: 64px;
+    margin: 0 36px;
+}
+.service-container ul li a{
+    text-align: center;
+    color: white;
+    margin-top: 8px;
+}
+.service-container ul li p{
+    margin-top: 7px;
+}
+.footer{
+    position: relative;
+    background: white;
+    text-align: center;
+    padding-top: 10px;
+    color: #1482BD;
+}
+.footer a{
+    font-size: 11px;
+    color: #1482BD;
+}
+a.back-top{
+    position: absolute;
+    margin-left: 47px;
+}
+.footer p{
+    margin: 7px 0 4px 0;
+}

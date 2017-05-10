@@ -1,0 +1,210 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+    color:#555;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+:focus {
+    outline: 0;
+}
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a {
+     text-decoration:  none;
+}
+	
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    clear: both;
+    display: block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*Add your css into here*/
+.fl_left{ float: left;}
+.fl_right{ float: right;}
+
+.container{
+    max-width: 492px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background: #E7F3FA;
+    color: black;
+}
+.nav-1 h1{
+    font-size: 22px;
+    color: black;
+    padding-left: 14px;
+    padding-top: 12px;
+    font-style: normal;
+}
+.info{
+    margin: auto;
+    width: 464px;
+    border-top: 4px solid #FDA207;
+    background: white;
+}
+.img1{
+    display: flex;
+    padding-bottom: 14px;
+}
+.img1 img{
+    height: 112px;
+    width: 243px;
+    margin: 10px 0 0 14px;
+    border: 1px solid #D8D8D8;
+}
+.text2 {
+    margin: 43px 15px 0 12px;
+    font-size: 18px;
+}
+.text {
+    margin: 10px 15px 0 12px;
+    font-size: 18px;
+}
+.text p{
+    font-size: 18px;
+}
+h2 a{
+    color: #075F85;
+    font-size: 22px;
+}
+h3{
+    color: black;
+    font-size: 22px;
+}
+.list ul li a{
+    display: flex;
+    background: #F9F1C0;
+    font-size: 18px;
+    color: #075F85;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.list ul li{
+    padding-bottom: 1px;
+}
+.list h2{
+    margin-left: 28px;
+    margin-right: 5px;
+}
+.img2{
+    display: flex;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+.img2 img{
+    height: 128px;
+    width: 109px;
+    margin: 13px 0 0 15px;
+}
+.text h4{
+    font-weight: normal;
+    font-size: 95%;
+}
+.text u{
+    color: #075F85;
+}
+.bot {
+    background: #F5F4EB;
+    display: flex;
+    margin-bottom: 13px;
+}
+.bot p{
+    font-size: 18px;
+    margin-left: 37px;
+    padding-top: 21px;
+}
+.bot h2{
+    margin-left: 37px;
+    padding-bottom: 10px;
+}
+.bot img{
+    margin-left: auto;
+    width: 111px;
+    height: 73px;
+}
+.img3{
+    padding-left: 15px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.img3 img{
+    height: 179px;
+    width: 197px;
+}
+.border{
+    border-top: 1px solid #D8D8D8;
+    width: 466px;
+    margin-top: 10px;
+    margin: auto;
+}
+.footer{
+    border: 1px solid #D8D8D8;
+    margin: auto;
+    width: 464px;
+    background: white;
+    font-size: 19px;
+    white-space: pre-line;
+    padding-left: 16px;
+    padding-bottom: 13px;
+    line-height: 1.2;
+}
+.footer a{
+    color: #285971;
+}
+.nav-2 h1{
+    font-size: 22px;
+    color: black;
+    padding-left: 14px;
+    padding-top: 10px;
+}
+.footer-2{
+    padding-top: 26px;
+
+}
